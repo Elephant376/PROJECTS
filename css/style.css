@@ -1,0 +1,119 @@
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{background:grey;}
+
+li,a,button{font-weight: 500;
+font-size: 16px;
+color: aliceblue;
+text-decoration: none;
+}
+
+header{display: flex;
+justify-content:space-between;
+align-items: center;
+padding:30px 10%;
+height: 60px;
+background-color: black;}
+
+.logo{cursor: pointer;}
+
+.nav-links{list-style:none;}
+.nav-links li {display: inline-block;
+padding:0 20px;}
+
+.nav-links li a {transition: all 0.3 ease 0s;}
+.nav-links li a:hover{color:aqua;}
+button{padding: 9px 25px;
+background-color:grey;
+border:none;
+border-radius:50px;
+cursor: pointer;
+transition: all 0.7 ease 0s;
+}
+button:hover{background-color:purple;}
+
+
+img{
+    height:50px;
+
+width:50px;}
+
+.container{display: flex;
+justify-content: center;
+flex-wrap: wrap;}
+
+
+
+.card{
+    background-color: white;
+width: 270px;
+height:450px;
+margin: 10px;
+border-radius: 15px;}
+
+.card-image{
+    background-color: aquamarine;
+    height:170px;
+    margin-bottom: 15px;
+background-size:cover;
+border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+background-image: url(/pics/iphone.jfif)
+}
+
+.car-2{
+background-image: url(/pics/pixel.jpg)
+}
+
+.car-3{
+    background-image: url(/pics/samsung.jfif)
+
+}
+
+.card h1{padding:10px;}
+
+.card p{padding:10px;}
+
+.card a{background-color: black;
+color: white;
+padding: 10px 15px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;}
+
+.card:hover{
+    background-color:black;
+    color: aliceblue;
+    cursor:pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;
+}
+
+.card span{
+    display: flex;
+    background-color:white;
+    color:black;
+    font-size: 25px;
+    position: relative;
+    left: 180px;
+    top: 150px;
+    
+    width:80px;
+    text-align: center;
+}
+
+.card span:hover{  background-color:black;
+    color: aliceblue;
+    cursor:pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;}

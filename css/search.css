@@ -1,0 +1,39 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+.jov{width:100%;
+min-height:100vh;
+padding: 5%;
+display: flex;
+align-items: center;
+justify-content: center ;}
+
+.searchbar{width:100%;
+max-width:500px;
+background:black;
+border-radius: 60px;
+padding: 10px 20px;}
+
+.searchbar input{
+    
+background:transparent;    
+flex: 1;
+border:0;
+outline: none;
+padding:24px 20px;
+font-size: 15px;
+color: aliceblue;}
+
+input{
+    padding: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.231);
+    transition: all .6s linear;
+    width: 20px;
+    outline: 0;
+}
+
+input:focus{
+    
+    width: 350px;
+}

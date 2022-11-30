@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* .content > p {
+  background-color: black;
+  color: #fff;
+} */
+
+/* .content + h2{
+    background-color: blueviolet;
+} */
+
+.content ~ h2{
+    background-color: rgb(43, 58, 226);
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.box  h1 {
+    display: none;
+}
+
+.box:active{
+    background-color: crimson;
+}
+
+.box:hover h1{
+  display: block;
+}
+
+input{
+    padding: 15px;
+    border: 1px solid rgba(230, 13, 13, 0.231);
+    transition: all .6s linear;
+    width: 20px;
+    outline: 0;
+}
+
+input:focus{
+    border: 1px solid rgb(23, 13, 228);
+    width: 350px;
+}
+
+input + p{
+    display: none;
+}
+
+input:focus + p{
+    display: block;
+    color: blue;
+}
+
+.clck{
+    border: 0;
+    background-color: rgb(129, 167, 92);
+    border-bottom: 4px solid #cccc;
+    border-radius: 7px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.clck:active{
+    position: relative;
+    border-bottom: 0;
+     top: 7px;
+}
+
+a:visited{
+    color: darkred;
+}
+
+.google{
+    width: 400px;
+    margin: auto;
+    background-color: azure;
+    border-radius: 7px;
+    padding: 25px;
+    /* position: relative; */
+
+}
+.google input{
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #ccc;
+  outline: 0;
+  background-color: azure;
+  border-radius: 7px;
+}
+
+
+.google input:valid{
+  border: 1px solid green;
+}
+
+.google button{
+    border: 0;
+    padding: 12px; 
+    background-color: rgb(58, 38, 236);
+    border-radius: 3px;
+  width: 100%;
+  display: block;
+  margin-top: 25px;
+}
+
+.google span{
+    position: absolute;
+    left: 42px;
+    top: 43px;
+    padding: 0 7px;
+    transition: all .2s ease-in-out;
+    background-color: azure;
+    pointer-events: none;
+}
+.google input:focus + span , .google input:valid + span {
+    font-size: 12px;
+    top: 15px;
+}
+
+/* .content p:first-child{
+   margin-left: 50px;
+}
+
+.content p:last-child{
+    margin-left: 50px;
+ }
+
+ .content p:nth-child(3){
+     padding-left: 40px;
+ } */
+
+ .content p:nth-child(odd){
+ background-color: aqua;
+ } 
+
+ .content p:nth-child(even){
+      background-color: blue;
+}
+
+ 
+
+ 
